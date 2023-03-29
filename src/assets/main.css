@@ -1,0 +1,269 @@
+@import './base.css';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 1px;
+}
+
+
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+  body{
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      background:#363636;
+      background:linear-gradient(#071304be,#000000e8),url(./images/220820-F-VZ090-1065.jpg);
+      background-size:cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      height:100vh;
+      overflow: hidden;
+      filter:drop-shadow(0 0 10px #000000d7);
+  }
+
+  .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .getStarted{
+    margin:0 0 0 50px;
+    width:600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+  }
+
+  .getStarted h1{
+    font-size:80px;
+    line-height:80px;
+    margin:0 0 20px 0;
+    color:#49be4f;
+    font-weight: 700;
+  }
+
+  .getStarted p{
+    font-size:16px;
+    line-height:16px;
+    margin:0 0 30px 0;
+    color:#49be4f;
+  }
+
+  .getStarted ol{
+    margin:0 0 30px 30px;
+  }
+
+  .getStarted p:nth-child(2){
+    font-size:30px;
+    line-height:30px;
+    margin:0 0 30px 0;
+    color:white;
+  }
+
+  .phone-wrapper{
+    position: relative;
+      width:370px;
+      height:740px;
+      /* border:1px solid red; */
+      background:#1e1e1e;
+      border-top:25px solid #080808;
+      border-right:15px solid #080808;
+      border-bottom:25px solid #080808;
+      border-left:15px solid #080808;
+      border-radius: 20px;
+      overflow-y: scroll;
+  }
+
+  .big-logo{
+    width:100%;
+    height:100%;
+    position: absolute;
+    z-index: 9999;
+    background:#1d1d1d;
+  }
+
+  .big-logo img{
+    width:100px;
+  }
+
+  .hero{
+    z-index:2;
+    position: relative;
+    height:200px;
+    background:  linear-gradient(#095727a9,#012201),url(./src/assets/images/hero-image.jpg);
+    background-size: cover;
+    background-position:center;
+    background-attachment: ;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:0 20px;
+    filter: drop-shadow(0 10px 10px #00000027);
+  }
+
+  .hero h1,.hero p{
+    color:white;
+  }
+
+  button{
+    padding:0;
+    border:none;
+    background:none;
+  }
+
+  .artist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding:20px 0;
+  }
+
+  .artist-card{
+    width:120px;
+    height:120px;
+    margin:10px 10px;
+    filter: drop-shadow(0 10px 10px #00000027);
+  }
+
+
+  .artist div:nth-child(1) .artist-card{background:linear-gradient(#131313c2,#101010),url('./images/van-halen.jpg');background-position:center;background-size:cover;}
+  .artist div:nth-child(2) .artist-card{background:linear-gradient(#131313c2,#101010),url('./images/The-Killers-3.jpg');background-position:center;background-size:cover;}
+  .artist div:nth-child(3) .artist-card{background:linear-gradient(#131313c2,#101010),url('./images/muse band.jpg');background-position:center;background-size:cover;}
+  .artist div:nth-child(4) .artist-card{background:linear-gradient(#131313c2,#101010),url('./images/duran duran.jpg');background-position:center;background-size:cover;}
+  .artist div:nth-child(5) .artist-card{background:linear-gradient(#131313c2,#101010),url('./images/phil-collins.jpg');background-position:center;background-size:cover;}
+  .artist div:nth-child(6) .artist-card{background:linear-gradient(#131313c2,#101010),url('./images/Pink-Floyd.webp');background-position:center;background-size:cover;}
+
+  .artist-card h3{
+    color:white;
+    opacity: 0;
+    font-weight: bold;
+  }
+
+  .artist div:nth-child(1) .artist-card:hover{background:linear-gradient(#13131317,#101010),url('./images/van-halen.jpg');background-position:center;background-size:cover;transition: 0.5s;}
+  .artist div:nth-child(2) .artist-card:hover{background:linear-gradient(#13131317,#101010),url('./images/The-Killers-3.jpg');background-position:center;background-size:cover;transition: 0.5s;}
+  .artist div:nth-child(3) .artist-card:hover{background:linear-gradient(#13131317,#101010),url('./images/muse band.jpg');background-position:center;background-size:cover;transition: 0.5s;}
+  .artist div:nth-child(4) .artist-card:hover{background:linear-gradient(#13131317,#101010),url('./images/duran duran.jpg');background-position:center;background-size:cover;transition: 0.5s;}
+  .artist div:nth-child(5) .artist-card:hover{background:linear-gradient(#13131317,#101010),url('./images/phil-collins.jpg');background-position:center;background-size:cover;transition: 0.5s;}
+  .artist div:nth-child(6) .artist-card:hover{background:linear-gradient(#13131317,#101010),url('./images/Pink-Floyd.webp');background-position:center;background-size:cover;transition: 0.5s;}
+
+  .artist-card:hover h3{
+    color:white;
+    opacity: 1;
+  }
+
+  .album{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding:20px 0;
+  }
+
+  .album-card{
+    width:120px;
+    height:120px;
+    margin:10px 10px;
+    padding:0 10px;
+    background:#0f0f0f;
+    filter: drop-shadow(0 10px 10px #00000027);
+  }
+
+  .artist-name{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .artist-name h2{
+    padding:0 20px;
+    margin:0 0 20px 0;
+    color:#49be4f;
+    text-align: center;
+  }
+
+  .album-card h3{
+    color:white;
+    padding:0 10px;
+    text-align: center;
+  }
+
+  .album-name{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .album-name h2{
+    padding:0 20px;
+    margin:30px 0 0 0;
+    color:#49be4f;
+    text-align: center;
+  }
+
+  .Song h5{
+    color:white;
+    margin:0 0 30px 0;
+    text-align: center;
+  }
+
+  .Song ul li{
+    padding:5px 10px;
+    border-top:1px solid rgb(44, 44, 44);
+    color:#585858;
+    
+    list-style-type: none;
+  }
+
+  .Song ul li span{
+    margin:0 0 0 15px;
+    color:#49be4f;
+  }

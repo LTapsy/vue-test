@@ -132,7 +132,7 @@ a,
     z-index:2;
     position: relative;
     height:200px;
-    background:  linear-gradient(#095727a9,#012201),url(./src/assets/images/hero-image.jpg);
+    background:  linear-gradient(#095727a9,#012201),url(./images/hero-image.jpg);
     background-size: cover;
     background-position:center;
     background-attachment: ;
@@ -172,8 +172,8 @@ a,
 
   .artist div:nth-child(1) .artist-card{background:linear-gradient(#131313c2,#101010),url('./images/van-halen.jpg');background-position:center;background-size:cover;}
   .artist div:nth-child(2) .artist-card{background:linear-gradient(#131313c2,#101010),url('./images/The-Killers-3.jpg');background-position:center;background-size:cover;}
-  .artist div:nth-child(3) .artist-card{background:linear-gradient(#131313c2,#101010),url('./images/muse band.jpg');background-position:center;background-size:cover;}
-  .artist div:nth-child(4) .artist-card{background:linear-gradient(#131313c2,#101010),url('./images/duran duran.jpg');background-position:center;background-size:cover;}
+  .artist div:nth-child(3) .artist-card{background:linear-gradient(#131313c2,#101010),url('./images/muse-band.jpg');background-position:center;background-size:cover;}
+  .artist div:nth-child(4) .artist-card{background:linear-gradient(#131313c2,#101010),url('./images/duran-duran.jpg');background-position:center;background-size:cover;}
   .artist div:nth-child(5) .artist-card{background:linear-gradient(#131313c2,#101010),url('./images/phil-collins.jpg');background-position:center;background-size:cover;}
   .artist div:nth-child(6) .artist-card{background:linear-gradient(#131313c2,#101010),url('./images/Pink-Floyd.webp');background-position:center;background-size:cover;}
 
@@ -185,8 +185,8 @@ a,
 
   .artist div:nth-child(1) .artist-card:hover{background:linear-gradient(#13131317,#101010),url('./images/van-halen.jpg');background-position:center;background-size:cover;transition: 0.5s;}
   .artist div:nth-child(2) .artist-card:hover{background:linear-gradient(#13131317,#101010),url('./images/The-Killers-3.jpg');background-position:center;background-size:cover;transition: 0.5s;}
-  .artist div:nth-child(3) .artist-card:hover{background:linear-gradient(#13131317,#101010),url('./images/muse band.jpg');background-position:center;background-size:cover;transition: 0.5s;}
-  .artist div:nth-child(4) .artist-card:hover{background:linear-gradient(#13131317,#101010),url('./images/duran duran.jpg');background-position:center;background-size:cover;transition: 0.5s;}
+  .artist div:nth-child(3) .artist-card:hover{background:linear-gradient(#13131317,#101010),url('./images/muse-band.jpg');background-position:center;background-size:cover;transition: 0.5s;}
+  .artist div:nth-child(4) .artist-card:hover{background:linear-gradient(#13131317,#101010),url('./images/duran-duran.jpg');background-position:center;background-size:cover;transition: 0.5s;}
   .artist div:nth-child(5) .artist-card:hover{background:linear-gradient(#13131317,#101010),url('./images/phil-collins.jpg');background-position:center;background-size:cover;transition: 0.5s;}
   .artist div:nth-child(6) .artist-card:hover{background:linear-gradient(#13131317,#101010),url('./images/Pink-Floyd.webp');background-position:center;background-size:cover;transition: 0.5s;}
 

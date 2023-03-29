@@ -1,7 +1,7 @@
 <template>
   <div class="container">
   <div class="phone-wrapper">
-    <button class="big-logo" @click="getArtists" v-if="showArtistButton"><img src="./assets/images/lordify logo.png" alt=""></button>
+    <button class="big-logo" @click="getArtists" v-if="showArtistButton"><img src="./assets/images/lordify-logo.png" alt=""></button>
     <div class="hero">
       <h1>
         Icons of the Era
